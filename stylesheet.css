@@ -1,3 +1,9 @@
+/*CSS BY Matthew Adcock */
+
+/*IMPORTED FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap");
+
+/*CSS RESET*/
 /* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
 License: none (public domain)
@@ -125,4 +131,114 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/*ROOT VARIABLES*/
+
+:root {
+  --Teal: #4ca7c0;
+  --Purple: #484fb7;
+  --Lavender: #6b8fe7;
+  --Yellow: #e9bb57;
+  --Pink: #d9526f;
+  --Dark-gray: #1e1e1e;
+  --White: #ffffff;
+
+  --body-fonts: Inter, Kavoon, sans-serif;
+
+  background-color: var(--Lavender);
+}
+
+/*GLOBAL STYLES*/
+
+header,
+main,
+footer {
+  width: 100%;
+  max-width: 450px;
+  font-family: var(--body-fonts);
+  background-color: var(--Purple);
+  margin: 0 auto;
+}
+
+header h1 {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 1em 0.25em 1em;
+}
+
+header p {
+  color: var(--White);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  padding-bottom: 2em;
+}
+
+h1 {
+  font-size: 3em;
+  color: var(--White);
+}
+
+nav {
+  background-color: var(--Yellow);
+  padding: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  font-family: Kavoon;
+}
+
+nav h2 {
+  font-size: 1.5em;
+  font-family: var(--body-fonts);
+  color: var(--Dark-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  padding-bottom: 0.25em;
+}
+nav a {
+  text-decoration: none;
+  color: var(--Purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--White);
+  padding: 1em;
+}
+
+nav li {
+  text-decoration: none;
+  padding: 0.25em;
+}
+
+#our-services h2 {
+  padding: 0.5em 0 0.25em 0.5em;
+}
+
+#one-on-one-coaching h3 {
+  padding-left: 0.6em;
+  color: var(--Yellow);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2em;
+  color: var(--White);
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.15em;
 }
