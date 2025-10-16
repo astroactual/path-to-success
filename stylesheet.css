@@ -167,7 +167,7 @@ header h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0.5em 1em 0.25em 1em;
+  padding: 0.5em 0.5em 0.25em 0.5em;
 }
 
 header p {
@@ -177,7 +177,7 @@ header p {
   justify-content: center;
   font-style: italic;
   text-align: center;
-  padding: 0 1em 1em 2em;
+  padding: 0 0.5em 0.5em 2em;
 }
 
 h1 {
