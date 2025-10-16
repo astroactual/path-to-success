@@ -185,7 +185,7 @@ h1 {
 
 nav {
   background-color: var(--Yellow);
-  padding: 1em;
+  padding: 0 1em 1em 1em;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -220,25 +220,136 @@ nav li {
   padding: 0.25em;
 }
 
-#our-services h2 {
+h2 {
+  font-size: 2em;
+  color: var(--White);
   padding: 0.5em 0 0.25em 0.5em;
 }
 
-#one-on-one-coaching h3 {
+h3 {
+  font-size: 1.5em;
   padding-left: 0.6em;
   color: var(--Yellow);
   font-weight: bold;
 }
 
-h2 {
-  font-size: 2em;
+h4 {
+  font-size: 1.15em;
+  color: var(--Purple);
+  font-weight: bold;
+  line-height: 2em;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+#box-pd,
+#box-cc,
+#box-rc,
+#box-sc,
+#box-fs,
+#box-il,
+#box-fl {
+  background-color: var(--White);
+  padding: 1.5em;
+  margin: 1.5em;
+  border-radius: 1em;
+}
+
+#why-choose-us {
+  background-color: var(--Pink);
+}
+
+#why-choose-us ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  padding: 1em;
+}
+
+#why-choose-us li {
+  padding: 2em;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  border-radius: 1em;
+}
+
+#why-choose-us li:nth-child(1) {
+  background-color: var(--Teal);
+}
+
+#why-choose-us li:nth-child(2) {
+  background-color: var(--Lavender);
+}
+
+#why-choose-us li:nth-child(3) {
+  background-color: var(--Yellow);
+}
+
+#why-choose-us li:nth-child(4) {
+  background-color: var(--White);
+}
+
+table {
+  background-color: var(--White);
+  margin: 1em auto;
+}
+
+table,
+th,
+td {
+  border: 3px solid var(--Yellow);
+}
+
+th {
+  background-color: var(--Yellow);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+th,
+td {
+  padding: 1em;
+}
+
+#take-the-first-step {
+  background-color: var(--Pink);
+  padding-bottom: 1em;
+}
+
+#take-the-first-step p {
+  margin: 0 1em 1em 1em;
   color: var(--White);
 }
 
-h3 {
-  font-size: 1.5em;
+button {
+  background-color: var(--White);
+  border: none;
+  padding: 1.5em 10em;
+  border-radius: 1em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 10px var(--Dark-gray);
+  display: block;
+  margin: 0 auto;
 }
 
-h4 {
-  font-size: 1.15em;
+footer {
+  padding: 2em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-small;
+  color: var(--White);
+}
+
+footer a {
+  color: var(--White);
 }
